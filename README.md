@@ -1,1 +1,1 @@
-# seimon-ohh.github.io
+# Welcome to omnis-idea.me
