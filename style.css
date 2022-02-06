@@ -1,8 +1,9 @@
 html, body{
     background-color: rgb(16, 16, 16);
-   overflow: auto;
+   
    height: 100%;
    color: white;
+  
 }
 
 .wrapper{
@@ -11,7 +12,8 @@ html, body{
     display: flex;
     vertical-align:middle;
     justify-content: center;
-    flex-direction: column;
+   
+    
 }
 .arrows {
     width: 60px;
@@ -60,17 +62,21 @@ html, body{
     animation-delay:0s;
     -webkit-animation-delay:0s; /* Safari  Chrome */
   }
-  #page1{
-      height: 600px;
+  #page2{
+      height: 100%;
+      width: auto;
       background-color: rgb(16, 16, 16);
       color: rgb(222, 107, 99);
   }
-  #page2{
-      height: 600px;
+  #page1{
+      height: 100%;
+      width: auto;
       background-color: rgb(222, 107, 99);
       color: rgb(16, 16, 16);
   }
   .footer{
-      height: 20px;
-      background-color: rgb(16, 16, 16);
+      height: 10px;
+      width: 100%;
+     margin: 0px;
+      background-color: rgb(47, 47, 47);
   }
